@@ -1,7 +1,7 @@
 #include <BluetoothSerial.h>
 
 BluetoothSerial SerialBT;
-int SensorPin = 36; // กำหนดขาของ Pulse Heartbeat Sensor (D34)
+int SensorPin = 36; // กำหนดขาของ Pulse Heartbeat Sensor (D34) -VP pin
 
 void setup() {
   Serial.begin(9600);
